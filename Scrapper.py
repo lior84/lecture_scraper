@@ -18,8 +18,8 @@ driver.get("https://moodle2.bgu.ac.il/moodle/local/mydashboard/")
 id_box = driver.find_element_by_id('login_username')
 pass_box = driver.find_element_by_id('login_password')
 
-username = "liorhari"
-password = "qaz1299Wsx"
+username = ""
+password = ""
 #Type into the boxes
 id_box.send_keys(username)
 pass_box.send_keys(password)
